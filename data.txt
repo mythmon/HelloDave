@@ -73,6 +73,26 @@ You arm yourself
 with a broom
 opt14, opt14
 
+story15
+There is no one
+here anymore...
+opt15, opt15
+
+story16
+You find a small
+cat-eye marble
+opt16, opt16
+
+story17
+Now you can see
+a message in it
+story18, story18
+
+story18
+It says Speak
+'Friend' & enter
+OOPS, OOPS
+
 opt0
 < Im not Dave
 > Hello
@@ -131,7 +151,17 @@ story14, OOPS
 opt14
 > Run out&attack
 < Sneak out
-OOPS, OOPS
+OOPS, story15
+
+opt15
+> Look around
+< Go outside
+story16, OOPS
+
+opt16
+> Take it
+< Leave it
+story17, OOPS
 
 POISON
 You have been
