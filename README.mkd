@@ -1,0 +1,13 @@
+HelloDave
+=========
+
+A game engine for a choose-your-own-adventure game, with a story.
+
+The game is quite simple. It displays a series of 'screens' on a 16x2 character LCD. Each screen has two next-states. If the user presses a left button, the left option is chosen. If the user presses a right button, the right option is chosen. The program then reads the page chosen by the user, displays it on the screen, and waits for input. To make a 'story' next, that doesn't offer any choices, the left and right options are simply set to the same page.
+
+The program is designed to run on an [OSU mega128.3 dev board][1], based on the AVR Atmega128 and, designed for the EECS program at Oregon State University.
+
+The code is written in AVR-dos assembly, compatible with the [avra assembler][2]. Some support scripts to generate data for assembly are written in Python.
+
+[1]: http://eecs.oregonstate.edu/education/resources/hardware/mega128/
+[2]: http://sourceforge.net/projects/avra/
