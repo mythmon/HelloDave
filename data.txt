@@ -1,0 +1,149 @@
+story0
+   Greetings    
+      Dave
+opt0,opt0
+
+story1
+Would you like
+to play a game?
+opt1, opt1
+
+story2
+A battle of wits
+if I win you die
+opt2, opt2
+
+story3
+ To forfeit
+     is to die
+opt3, opt3
+
+story4
+First clue:
+A porcelain duck
+opt4, opt4
+
+story5
+ A small paper
+ falls out
+opt5, opt5
+
+story6
+Theres a hole
+with paper in it
+opt6, opt6
+
+story7
+ A secret
+message appears
+story8, story8
+
+story8
+ Beware the
+      Octopus!
+opt8, opt8
+
+story9
+Behind you a
+ door opens...
+story10, story10
+
+story10
+ You hear
+someone come in
+opt10, opt10
+
+story11
+Is that you
+Dave?
+opt11, opt11
+
+story12
+Your heart is
+hammering
+story13, story13
+
+story13
+You run into
+  a broom closet
+opt14, opt14
+
+story14
+You arm yourself
+with a broom
+opt14, opt14
+
+opt0
+< Im not Dave
+> Hello
+NONE, story1
+
+opt1
+< No
+> What game?
+GAMEOVER, story2
+
+opt2
+< No thanks
+> Sure
+story3, story4
+
+opt3
+< Oh Well
+> Fine Ill play
+GAMEOVER, story4
+
+opt4
+< Smash it!
+> Look under it
+story5, story6
+
+opt5
+< Pick it up
+> Burn it
+POISON, story7
+
+opt6
+< Pull paper out
+> Smash duck!
+POISON, story5
+
+opt8
+< Write it down
+> Memorize it
+story9, NONE
+
+opt10
+< Say 'Hi Sam'
+> Stay silent
+NONE, story11
+
+opt11
+< Say 'Yes'
+> Run away
+NONE, story12
+
+opt13
+> Grab something
+< Listen outside
+story14, NONE
+
+opt14
+> Run out&attack
+< Sneak out
+NONE, NONE
+
+POISON
+You have been
+poisoned
+GAMEOVER, GAMEOVER
+
+GAMEOVER
+    G A M E
+     O V E R
+story0, story0
+
+NONE
+Oops! No one has
+written this yet
+story0, story0
