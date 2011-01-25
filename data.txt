@@ -76,7 +76,7 @@ opt14, opt14
 opt0
 < Im not Dave
 > Hello
-NONE, story1
+OOPS, story1
 
 opt1
 < No
@@ -111,27 +111,27 @@ POISON, story5
 opt8
 < Write it down
 > Memorize it
-story9, NONE
+story9, OOPS
 
 opt10
 < Say 'Hi Sam'
 > Stay silent
-NONE, story11
+OOPS, story11
 
 opt11
 < Say 'Yes'
 > Run away
-NONE, story12
+OOPS, story12
 
 opt13
 > Grab something
 < Listen outside
-story14, NONE
+story14, OOPS
 
 opt14
 > Run out&attack
 < Sneak out
-NONE, NONE
+OOPS, OOPS
 
 POISON
 You have been
@@ -141,9 +141,4 @@ GAMEOVER, GAMEOVER
 GAMEOVER
     G A M E
      O V E R
-story0, story0
-
-NONE
-Oops! No one has
-written this yet
 story0, story0
