@@ -1,4 +1,4 @@
-main: clean story-data.asm
+main: clean storydata.asm
 	avra hellodave.asm
 
 clean:
@@ -8,7 +8,7 @@ clean:
 	rm -f storydata.asm
 	rm -f hellodave.cof
 
-story-data.asm:
+storydata.asm:
 	./data-to-asm.py
 
 install: main
