@@ -9,5 +9,5 @@ The program is designed to run on an [OSU mega128.3 dev board][1], based on the 
 
 The code is written in AVR-dos assembly, compatible with the [avra assembler][2]. Some support scripts to generate data for assembly are written in Python.
 
-[1]: http://eecs.oregonstate.edu/education/resources/hardware/mega128/
+[1]: http://eecs.oregonstate.edu/education/hardware/mega128/
 [2]: http://sourceforge.net/projects/avra/
